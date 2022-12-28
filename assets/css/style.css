@@ -1,0 +1,108 @@
+@font-face {
+    font-family: FiraGO;
+    src: url(../Fonts/FiraGO-Regular.woff);
+  }
+
+  body {
+    background: #1E1E1E;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+  }
+
+  .card {
+    box-sizing: border-box;
+
+    width: 718px;
+    height: 748px;
+    left: 281px;
+    top: 52px;
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+
+    padding-left: 51px;
+  }
+
+  h1 {
+    width: 191px;
+    height: 43px;
+    left: 328px;
+    top: 92px;
+
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #000000;
+  }
+
+  .input_item label {
+    display: block;
+
+    width: 191px;
+    height: 14px;
+    left: 332px;
+    top: 646px;
+
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    margin-bottom: 5PX;
+  }
+ 
+
+  .input_item input {
+    width: 616px;
+    height: 50px;
+    left: 332px;
+    top: 331px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    color:#E7E7E7;
+  }
+
+  textarea {
+   
+    width: 616px;
+    height: 148px;
+    left: 332px;
+    top: 412px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    color: #E7E7E7;
+  }
+
+  .btn {
+    justify-content: right;
+
+    width: 205px;
+    height: 47px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: #000000;
+
+    font-family:FiraGO;
+    font-style: normal;
+    font-size: 16px;
+
+    margin-top: 13px;
+    margin-right: 51px;
+    margin-bottom: 24px;
+    margin-left: 418px;
+  }
