@@ -74,8 +74,12 @@
     color:#E7E7E7;
   }
 
+  ::placeholder {
+    color: #E7E7E7;
+  }
+
   textarea {
-   
+
     width: 616px;
     height: 148px;
     left: 332px;
