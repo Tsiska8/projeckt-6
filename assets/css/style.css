@@ -3,6 +3,11 @@
     src: url(../Fonts/FiraGO-Regular.woff);
   }
 
+  @font-face {
+    font-family: Blinker;
+    src: url(../Fonts/Blinker-Black.ttf);
+  }
+
   body {
     background: #F5F5F5;
 
@@ -33,6 +38,7 @@
     height: 43px;
     left: 328px;
     top: 92px;
+    margin-bottom: 13px;
 
     font-family: FiraGO;
     font-style: normal;
@@ -49,7 +55,6 @@
     width: 191px;
     height: 14px;
     left: 332px;
-    top: 646px;
 
     font-family: FiraGO;
     font-style: normal;
@@ -64,18 +69,73 @@
 
   .input_item input {
     width: 616px;
-    height: 50px;
+    height: 49px;
     left: 332px;
-    top: 331px;
+
+    margin-bottom: 11px;
 
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
     border-radius: 10px;
     color:#1E1E1E;
   }
+ 
+   h4 {
+    width: 191px;
+    height: 14px;
+    left: 332px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    
+    font-family:FiraGO;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+   }
+
+  .input_3 {
+    box-sizing: border-box;
+
+    width: 616px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 51px;
+    margin-bottom: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+  }
+
+  select {
+    box-sizing: border-box;
+
+    width: 616px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 51px;
+    margin-bottom: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+    font-family:FiraGO;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E7E7E7;
+  }
 
   ::placeholder {
     color: #E7E7E7;
+    margin-left: 18px;
   }
 
   textarea {
@@ -83,7 +143,8 @@
     width: 616px;
     height: 148px;
     left: 332px;
-    top: 412px;
+    margin-top: 5px;
+    margin-bottom: 6px;
 
     background: #FFFFFF;
     border: 1px solid #E5E5E5;
@@ -105,7 +166,7 @@
     font-style: normal;
     font-size: 16px;
 
-    margin-top: 13px;
+    margin-top: 11px;
     margin-right: 51px;
     margin-bottom: 24px;
     margin-left: 418px;
