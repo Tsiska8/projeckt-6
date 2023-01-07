@@ -127,10 +127,13 @@
     color: #E7E7E7;
   }
 
+  .option1 {
+    color: #000000;
+  }
+
   ::placeholder {
     color: #E7E7E7;
 
-    
     padding-top: 20px;
     padding-right: 20px;
 
@@ -144,7 +147,6 @@
     margin-top: 5px;
     margin-bottom: 6px;
 
-    padding-top: 10px;
     padding-left: 20px;
 
     background: #FFFFFF;
@@ -160,8 +162,7 @@
   }
 
   textarea::placeholder {
-    
-    color: #E7E7E7;
+     color: #E7E7E7;
   }
 
   .btn {
